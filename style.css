@@ -24,7 +24,7 @@ common css styles
 }
 .title-text-container{
     text-align: center;
-    padding: 0 90px;
+    padding: 0 20%;
     margin-bottom: 48px;
 
 }
@@ -163,7 +163,7 @@ Banner css styles
     margin-bottom: 151px;
 }
 .title-text-container > p{
-    margin: 0 20%;
+    /* margin: 0 47px; */
 }
 .vdo-container{
     border: 1px solid rgba(125, 130, 134, 0.7);
@@ -174,4 +174,42 @@ Banner css styles
 }
 iframe{
     border-radius: 15px;
+}
+/* Current Target css styles */
+.current-target{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 150px 111px 150px;
+
+}
+.target-card-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.html{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 60px;
+}
+.css{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 60px;
+}
+.javascript{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 60px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.card-text{
+    margin-bottom: 24px;
 }
