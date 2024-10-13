@@ -51,7 +51,7 @@ Banner css styles
 ***************************************************
 */
 .banner-section{
-    background-image: url(/resources/Hero-bg.png);
+    background-image: url(resources/Hero-bg.png);
     background-size: cover;
 }
 .banner-container{
