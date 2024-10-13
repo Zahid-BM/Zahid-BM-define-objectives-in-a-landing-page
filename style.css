@@ -154,4 +154,24 @@ Banner css styles
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
-
+/* Inspiration section */
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 151px;
+}
+.title-text-container > p{
+    margin: 0 20%;
+}
+.vdo-container{
+    border: 1px solid rgba(125, 130, 134, 0.7);
+    padding: 32px;
+    border-radius: 16px;
+    width: 1535px;
+    height: 700px;
+}
+iframe{
+    border-radius: 15px;
+}
