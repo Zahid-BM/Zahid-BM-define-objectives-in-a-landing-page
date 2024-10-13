@@ -9,8 +9,11 @@ common css styles
     font-style: normal;
     color: rgb(13, 19, 33);
 }
+.common-text-style{
+    color: rgb(73, 73, 75);;
+}
 main{
-    margin: 0 150px;
+    margin: 0 0;
 }
 /* 
 *********************************************
@@ -36,9 +39,10 @@ nav > ul{
 .resume-btn{
     background: none;
     border-radius: 8px;
-    border: 1px solid rgb(13, 19, 33);;
+    border: 2px solid rgb(143, 145, 151);
     font-size: 20px;
     font-weight: 600;
+    color: rgb(40, 41, 43);
     padding: 17px 24px;
 }
 /* 
@@ -46,3 +50,13 @@ nav > ul{
 Banner css styles 
 ***************************************************
 */
+.banner-section{
+    background-image: url(/resources/Hero-bg.png);
+    background-size: cover;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
