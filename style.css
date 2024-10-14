@@ -242,6 +242,7 @@ iframe{
 /* need support section css styles */
 .support{
     margin: 0 150px;
+    margin-bottom: 80px;
 }
 .support-container{
     width: 94%;
