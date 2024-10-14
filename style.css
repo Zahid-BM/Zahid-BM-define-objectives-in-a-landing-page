@@ -289,5 +289,18 @@ input{
     padding: 15px 20px 15px 20px;
     border: 0;
 }
+/* footer section css styles */
+footer{
+    padding: 32px 150px 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+footer > p{
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
