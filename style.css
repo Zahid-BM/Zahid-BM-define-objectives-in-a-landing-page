@@ -95,6 +95,7 @@ Banner css styles
     font-weight: 600;
     border: 0;
     margin: 32px 0 0 0;
+    text-decoration: none;
 }
 /* Web development section css styles */
 .web-development{
